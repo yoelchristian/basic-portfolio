@@ -5,7 +5,13 @@ body {
 }
 
 /*Wrapper*/
-.wrapper {
+.wrapper-header {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper-content {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
@@ -76,13 +82,13 @@ header {
     color: #777777;
     text-align: center;
     padding: 16.9px;
-    padding-left: 17.7px;
-    padding-right: 17.7px;
+    padding-left: 17px;
+    padding-right: 17px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color:  #fafafa;
+    background-color:  #e6e3e3;
 }
 
 /*Content Related*/
@@ -107,6 +113,44 @@ li a:hover {
 
 .main-bio {
     display: inline;
+}
+
+/*Content for Contact*/
+.contact-me {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 175%;
+}
+
+.contact-form {
+    margin-top: 30px;
+    font-size: 120%;
+}
+
+input[type=text] {
+    width: 595px;
+    display: inline-block;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.message {
+    height: 250px;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    border: none;
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 100%;
+    color: white;
+}
+
+input[type=submit]:hover {
+    background-color: #41928d;
 }
 
 /*Sidebar Related*/
@@ -146,7 +190,7 @@ li a:hover {
     padding: 18px;
     border-top: #4aaaa5;
     border-style: solid;
-    border-top-width: 7px;
+    border-top-width: 5px;
     font-size: 60%;
 }
 
