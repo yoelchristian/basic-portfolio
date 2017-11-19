@@ -136,7 +136,11 @@ input[type=text] {
 }
 
 .message {
-    height: 250px;
+    width: 597px;
+    display: inline-block;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 input[type=submit] {
@@ -151,6 +155,29 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #41928d;
+}
+
+/* Content for Portfolio */
+.portfolio {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 175%;
+}
+
+.placeholders {
+    margin-top: 10px;
+}
+
+.placeholder-1,
+.placeholder-3,
+.placeholder-5 {
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+.placeholder-2,
+.placeholder-4 {
+    float: right;
 }
 
 /*Sidebar Related*/
