@@ -92,6 +92,7 @@ li a:hover {
 }
 
 /*Content Related*/
+/*Content for About*/
 .content {
     width: 610px;
     float: left;
@@ -111,8 +112,10 @@ li a:hover {
     margin-bottom: 15px;
 }
 
-.main-bio {
+.bio-content {
     display: inline;
+    line-height: 25px;
+    letter-spacing: 1px;
 }
 
 /*Content for Contact*/
@@ -178,6 +181,7 @@ input[type=submit]:hover {
 .placeholder-2,
 .placeholder-4 {
     float: right;
+    margin-top: 40px;
 }
 
 /*Sidebar Related*/
